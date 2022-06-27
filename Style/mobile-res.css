@@ -1,0 +1,21 @@
+@media only screen and (max-width: 1024px){
+    #hero{
+        padding: 100px 100px;
+    }
+    #service .col-12 p{
+        padding: 25px 100px;
+    }
+    #service .service-list{
+        margin: 40px 0px;
+    }
+    #service .service-list h3{
+        font-size: 22px;
+    }
+    #service .service-list p{
+        font-size: 12px;
+    }
+    #service .client-list{
+        padding: 0;
+        margin-top: 50px;
+    }
+}

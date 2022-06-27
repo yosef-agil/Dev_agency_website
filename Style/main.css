@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #171722;
+  font-family: "Inter", sans-serif;
+}
+
+nav .brand-nm a {
+  font-size: 22px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+nav .brand-nm a span {
+  color: #B1B3F3;
+}
+nav .collapse a {
+  font-size: 14px;
+  font-weight: normal;
+  color: #CECFEB;
+}
+nav .collapse button {
+  border-radius: 50px;
+  border: none;
+  padding: 8px 25px;
+  background-color: #4A4DE8;
+}
+
+h4 {
+  font-size: 18px;
+  color: #4AE8B9;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: 15px;
+  font-size: 38px;
+  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+#hero {
+  padding: 120px 300px;
+}
+#hero h4 {
+  color: #4AE8B9;
+  font-size: 18px;
+}
+#hero h1 {
+  margin-top: 15px;
+  font-size: 68px;
+  color: #FFFFFF;
+  font-weight: bold;
+  line-height: 82px;
+}
+#hero p {
+  padding: 0px 200px;
+  margin-top: 48px;
+  font-size: 14px;
+  color: #F3F3FA;
+}
+
+#projectslides {
+  position: relative;
+}
+#projectslides .row {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 50px;
+  box-shadow: 0px 0px 44px 0px rgba(0, 0, 0, 0.28);
+}
+#projectslides .background {
+  z-index: 1;
+  background-color: #4A4DE8;
+  width: 100%;
+  height: 577px;
+}
+
+#service {
+  color: #FFFFFF;
+}
+#service .container {
+  background-color: #1C1C22;
+  padding: 90px;
+}
+#service .col-12 p {
+  padding: 25px 220px;
+  font-size: 14px;
+  color: #F3F3FA;
+}
+#service .service-list {
+  margin: 70px 0px;
+}
+#service .service-list p {
+  color: #CECFEB;
+  line-height: 20px;
+}
+#service .service-list .col-3 {
+  text-align: center;
+}
+#service .service-list .col-3 img {
+  margin-bottom: 20px;
+}
+#service .client-list {
+  margin-top: 80px;
+  text-align: center;
+}
+
+#about {
+  margin: 100px;
+}
+
+#recentproj {
+  margin: 100px;
+}
+#recentproj .title {
+  padding-bottom: 50px;
+}
+#recentproj .project-item {
+  margin: 80px 0px;
+}
+#recentproj .project-item .desc-proj {
+  padding: 50px;
+  color: #F3F3FA;
+}
+#recentproj .project-item .desc-proj h2 {
+  margin: 25px 0px;
+  line-height: 50px;
+  font-weight: 700;
+}
+#recentproj .project-item .desc-proj p {
+  line-height: 28px;
+}
+#recentproj .project-item .desc-proj ul {
+  list-style: none;
+  padding: 0;
+}
+#recentproj .project-item .desc-proj ul li {
+  gap: 20px;
+}
+#recentproj .project-item .desc-proj ul li .tag-item {
+  margin-top: 15px;
+  padding: 5px 12px;
+  border: solid #F3F3FA;
+  border-radius: 50px;
+  opacity: 50%;
+}
+
+footer {
+  background-color: #000000;
+  padding: 80px 0px;
+  margin-top: 100px;
+}
+footer hr {
+  color: #FFFFFF;
+  margin-top: 80px;
+  margin-bottom: 25px;
+}
+footer .text {
+  position: absolute;
+}
+footer .text h1 {
+  font-size: 120px;
+  font-weight: 900;
+  color: #FFFFFF;
+}
+footer .bg {
+  z-index: 1;
+  padding-top: 50%;
+}
+footer .desc {
+  color: #F3F3FA;
+}
+footer .desc p {
+  padding-right: 150px;
+  line-height: 28px;
+}
+footer .desc button {
+  margin-top: 25px;
+  border-radius: 50px;
+  border: solid white;
+  padding: 8px 25px;
+  background-color: transparent;
+}
+footer #footbrand a {
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+footer #footbrand a span {
+  color: #4A4DE8;
+}
+footer #footbrand li {
+  list-style: none;
+  position: static;
+}
+footer #footbrand li a {
+  margin-left: 15px;
+}/*# sourceMappingURL=main.css.map */
