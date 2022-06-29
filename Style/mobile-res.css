@@ -19,3 +19,19 @@
         margin-top: 50px;
     }
 }
+@media only screen and (max-width: 768px){
+    #navbarNav .navbar-nav{
+        text-align: center;
+        margin-top: 50px;
+    }
+    #hero h4{
+        font-size: 14px;
+    }
+    #hero h1{
+        font-size: 42px;
+        line-height: 48px;
+    }
+    #hero p{
+        padding: 0px 70px;
+    }
+}
