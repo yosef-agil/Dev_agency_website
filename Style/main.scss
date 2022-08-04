@@ -106,6 +106,10 @@ h2{
 //PROJECT SLIDES
 #projectslides{
     position: relative;
+    .col-md-3{
+        margin: 0;
+        padding: 0;
+    }
     .row{
         position: absolute;
         top: 0;
@@ -140,7 +144,7 @@ h2{
             color: #CECFEB;
             line-height: 20px;
         }
-        .col-3{
+        .col-md-3{
             text-align: center;
             img{
                 margin-bottom: 20px;
@@ -155,6 +159,27 @@ h2{
 //ABOUT SETTINGS
 #about{
     margin: 100px;
+    .col-md-5{
+        margin-top: 100px;
+    }
+    .content{
+        p{
+            color: $white500;
+            margin-top: 25px;
+            margin-bottom: 45px;
+        }
+        button{
+            border-radius: 50px;
+            border: none;
+            padding: 8px 25px;
+            background-color: $purple;
+        }
+    }
+    .col-md-7{
+        img{
+            float: right;
+        }
+    }
 }
 //PROJECT LIST
 #recentproj{

@@ -66,6 +66,10 @@ h2 {
 #projectslides {
   position: relative;
 }
+#projectslides .col-md-3 {
+  margin: 0;
+  padding: 0;
+}
 #projectslides .row {
   position: absolute;
   top: 0;
@@ -99,10 +103,10 @@ h2 {
   color: #CECFEB;
   line-height: 20px;
 }
-#service .service-list .col-3 {
+#service .service-list .col-md-3 {
   text-align: center;
 }
-#service .service-list .col-3 img {
+#service .service-list .col-md-3 img {
   margin-bottom: 20px;
 }
 #service .client-list {
@@ -112,6 +116,23 @@ h2 {
 
 #about {
   margin: 100px;
+}
+#about .col-md-5 {
+  margin-top: 100px;
+}
+#about .content p {
+  color: #F3F3FA;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+#about .content button {
+  border-radius: 50px;
+  border: none;
+  padding: 8px 25px;
+  background-color: #4A4DE8;
+}
+#about .col-md-7 img {
+  float: right;
 }
 
 #recentproj {

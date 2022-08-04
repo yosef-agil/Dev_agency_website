@@ -34,4 +34,12 @@
     #hero p{
         padding: 0px 70px;
     }
+   .project-item{
+        display: none;
+    }
+}
+@media only screen and (max-width: 425px){
+    #recentproj .project-item{
+        display: none;
+    }
 }
